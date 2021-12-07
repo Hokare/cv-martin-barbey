@@ -17,22 +17,24 @@
       <div class="photo-profile">
         <img
           class="img-photo-profile"
-          src="./static/images/img-250x250.jpg"
+          src="./static/images/photo-martin.jpg"
           alt="Ma photo de profile."
         />
       </div>
       <div class="nom-profile">
-        <h1>
-          Martin <br />
-          BARBEY
-        </h1>
-        <h2>Etudiant en Systèmes Numériques</h2>
+        <h1 class="martin">Martin</h1>
+        <h1 class="barbey">BARBEY</h1>
+        <h2 class="SN">Etudiant en Systèmes Numériques</h2>
       </div>
     </div>
 
     <div class="info-perso">
       <div class="adresse info">
-        <div><img src="./static/images/home.png" alt="" /></div>
+        <div>
+          <span class="infobulle" aria-label="Adresse">
+            <img src="./static/images/home.png" alt="" />
+          </span>
+        </div>
         <a
           class="info-a"
           href="https://www.google.com/maps/place/28+Avenue+Messmer,+67400+Illkirch-Graffenstaden/@48.5281109,7.7141261,17z/data=!3m1!4b1!4m5!3m4!1s0x4796ca16f959902b:0xc817d755a9189ba0!8m2!3d48.5281074!4d7.7163148"
@@ -45,7 +47,11 @@
       </div>
 
       <div class="contacte info">
-        <div><img src="./static/images/contact-book.png" alt="" /></div>
+        <div>
+          <span class="infobulle" aria-label="Contacte">
+            <img src="./static/images/contact-book.png" alt="" />
+          </span>
+        </div>
         <a
           class="info-a"
           href="mailto:martin.barbey01@gmail.com"
@@ -59,8 +65,12 @@
         >
       </div>
 
-      <div class="lange info">
-        <div><img src="./static/images/translation.png" alt="" /></div>
+      <div class="langue info">
+        <div>
+          <span class="infobulle" aria-label="Langue">
+            <img src="./static/images/translation.png" alt="" />
+          </span>
+        </div>
         <a class="info-a">
           Français (maternelle) <br />
           Anglais
@@ -69,14 +79,17 @@
     </div>
 
     <div>
-      <div class="grand-titre"><p class="grand-titre-p">Expériences</p><div class="fleche"></div></div>
+      <div class="grand-titre">
+        <p class="grand-titre-p">Expériences</p>
+        <div class="fleche"></div>
+      </div>
       <div class="sous-item">
         <div class="bloc-div">
           <div>
             <h3>Eberhardt</h3>
             <p class="font-size-14">
               Strasbourg - France <br />
-              Stage du 00/00/0000 au 00/00/0000
+              Durée de stage : 3 semaines
             </p>
             <p class="font-size-14">Missions réalisées :</p>
             <ul class="font-size-13">
@@ -84,8 +97,8 @@
               ordinateur, téléphone fixe).
             </ul>
             <ul class="font-size-13">
-              - Installation de Windows sur les ordinateurs ainsi que des logiciels
-              nécessaires aux employés.
+              - Installation de Windows sur les ordinateurs ainsi que des
+              logiciels nécessaires aux employés.
             </ul>
             <ul class="font-size-13">
               - Décablage de certain serveurs de l'entreprise.
@@ -94,6 +107,9 @@
               - Création d'un programme (Batch, PowerShell) pour simplifer
               l'installation de logiciels et la modification des paramètres.
             </ul>
+            <div>
+				<p class="font-size-14">Lettre de recomandation : <a href="./static/images/Lettre recommandation MBARBEY.pdf"><button>Regarder</button></a></p>
+            </div>
           </div>
           <div class="div-img">
             <img class="img" src="./static/images/eberhardt.png" alt="" />
@@ -105,7 +121,7 @@
             <h3>Electricité Effinger</h3>
             <p class="font-size-14">
               Strasbourg, Illkirch - France <br />
-              Stage du 00/00/0000 au 00/00/0000
+              Durée de stage : 1 semaine
             </p>
             <p class="font-size-14">Missions réalisées :</p>
             <ul class="font-size-13">
@@ -127,7 +143,7 @@
             <h3>Bongard</h3>
             <p class="font-size-14">
               Holtzheim - France <br />
-              Stage du 00/00/0000 au 00/00/0000
+              Durée de stage : 1 semaine
             </p>
             <p class="font-size-14">Missions réalisées :</p>
             <ul class="font-size-13">
@@ -147,7 +163,7 @@
             <h3>Esprit Paysan</h3>
             <p class="font-size-14">
               Vesoul - France <br />
-              Stage du 00/00/0000 au 00/00/0000
+              Durée de stage : 1 semaine
             </p>
             <p class="font-size-14">Missions réalisées :</p>
             <ul class="font-size-13">
@@ -165,7 +181,10 @@
     </div>
 
     <div>
-      <div class="grand-titre"><p class="grand-titre-p">Compétences</p><div class="fleche"></div></div>
+      <div class="grand-titre">
+        <p class="grand-titre-p">Compétences</p>
+        <div class="fleche"></div>
+      </div>
       <div class="sous-item">
         <div class="bloc-div-competences">
           <h3>Travail manuel</h3>
@@ -210,6 +229,12 @@
         </div>
 
         <div class="bloc-div-competences">
+          <h3>Impression 3D</h3>
+          <p class="font-size-13">Personnel</p>
+          <div class="niveau"><div class="niveau-95"></div></div>
+        </div>
+
+        <div class="bloc-div-competences">
           <h3>Adobe</h3>
           <p class="font-size-13">Lycée</p>
           <div class="niveau"><div class="niveau-60"></div></div>
@@ -224,7 +249,10 @@
     </div>
 
     <div>
-      <div class="grand-titre"><p class="grand-titre-p">Scolarité</p><div class="fleche"></div></div>
+      <div class="grand-titre">
+        <p class="grand-titre-p">Scolarité</p>
+        <div class="fleche"></div>
+      </div>
       <div class="sous-item">
         <div class="bloc-div">
           <div>
@@ -234,8 +262,8 @@
               De 2019 à 2022
             </p>
             <p class="font-size-14">
-              Baccalauréat Professionnel Systèmes Numeriques (SN) option C Réseaux
-              Informatiques et Système Communicants (RISC).
+              Baccalauréat Professionnel Systèmes Numeriques (SN) option C
+              Réseaux Informatiques et Système Communicants (RISC).
             </p>
           </div>
           <div class="div-img">
@@ -262,32 +290,43 @@
       </div>
     </div>
     <div>
-      <div class="grand-titre"><p class="grand-titre-p">Diplômes</p><div class="fleche"></div></div>
+      <div class="grand-titre">
+        <p class="grand-titre-p">Diplômes</p>
+        <div class="fleche"></div>
+      </div>
       <div class="sous-item">
         <div class="bloc-div-diplomes">
+          <h3>Brevet d'études professionnelles - BEP</h3>
+          <p class="font-size-14">2021</p>
+        </div>
+        
+        <div class="bloc-div-diplomes">
           <h3>Prévention et Secours Civiques de Niveau 1 - PSC1</h3>
-          <p class="font-size-14">(Date)</p>
+          <p class="font-size-14"></p>
         </div>
 
         <div class="bloc-div-diplomes">
           <h3>Attestation Scolaire de Sécurité Routière 1 - ASSR1</h3>
-          <p class="font-size-14">(Date)</p>
+          <p class="font-size-14">2016</p>
         </div>
 
         <div class="bloc-div-diplomes">
           <h3>Attestation Scolaire de Sécurité Routière 2 - ASSR2</h3>
-          <p class="font-size-14">(Date)</p>
+          <p class="font-size-14">2019</p>
         </div>
 
         <div class="bloc-div-diplomes">
           <h3>Brevet des collèges avec mention</h3>
-          <p class="font-size-14">(Date)</p>
+          <p class="font-size-14">2019</p>
         </div>
       </div>
     </div>
 
     <div>
-      <div class="grand-titre"><p class="grand-titre-p">Projets</p><div class="fleche"></div></div>
+      <div class="grand-titre">
+        <p class="grand-titre-p">Projets</p>
+        <div class="fleche"></div>
+      </div>
       <div class="sous-item">
         <div class="bloc-div-projets">
           <h3>Site Web de configuration d'un robot discord</h3>
@@ -319,16 +358,51 @@
           </p>
           <p class="font-size-14">
             Github :
-            <a href="https://github.com/Hokare/cv-martin-barbey" target="_blank">https://github.com/Hokare/cv-martin-barbey</a>
+            <a href="https://github.com/Hokare/cv-martin-barbey" target="_blank"
+              >https://github.com/Hokare/cv-martin-barbey</a
+            >
           </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="grand-titre">
+        <p class="grand-titre-p">Loisir</p>
+        <div class="fleche"></div>
+      </div>
+      <div class="sous-item">
+        <div class="bloc-div">
+          <div>
+            <h3>Scoutisme</h3>
+          </div>
+        </div>        
+        <div class="bloc-div">
+          <div>
+            <h3>Escalade</h3>
+          </div>
+        </div>               
+        <div class="bloc-div">
+          <div>
+            <h3>Informatique</h3>
+          </div>
         </div>
       </div>
     </div>
 
     <div class="reseaux">
       <div class="sous-reseaux">
-        <div><a href="https://github.com/Hokare" target="_blank"><img src="./static/images/signe-github.png" alt=""></a></div>
-        <div><a href="https://www.linkedin.com/in/martin-barbey-a521781a3/" target="_blank"><img src="./static/images/linkedin.png" alt=""></a></div>
+        <div>
+          <a href="https://github.com/Hokare" target="_blank"
+            ><img src="./static/images/signe-github.png" alt=""
+          /></a>
+        </div>
+        <div>
+          <a
+            href="https://www.linkedin.com/in/martin-barbey/"
+            target="_blank"
+            ><img src="./static/images/linkedin.png" alt=""
+          /></a>
+        </div>
       </div>
     </div>
   </body>
